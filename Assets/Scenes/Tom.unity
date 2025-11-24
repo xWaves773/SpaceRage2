@@ -651,6 +651,7 @@ GameObject:
   m_Component:
   - component: {fileID: 363939350}
   - component: {fileID: 363939349}
+  - component: {fileID: 363939351}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -738,6 +739,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!114 &363939351
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 363939348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.UniversalAdditionalLightData
+  m_UsePipelineSettings: 1
+  m_AdditionalLightsShadowResolutionTier: 2
+  m_CustomShadowLayers: 0
+  m_LightCookieSize: {x: 1, y: 1}
+  m_LightCookieOffset: {x: 0, y: 0}
+  m_SoftShadowQuality: 0
+  m_RenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_ShadowRenderingLayersMask:
+    serializedVersion: 0
+    m_Bits: 1
+  m_Version: 4
+  m_LightLayerMask: 1
+  m_ShadowLayerMask: 1
+  m_RenderingLayers: 1
+  m_ShadowRenderingLayers: 1
 --- !u!1 &396434585
 GameObject:
   m_ObjectHideFlags: 0
@@ -2935,6 +2965,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a50fb60e646468428992a6b613133a2, type: 3}
+--- !u!1001 &6647465046330072394
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7127692242304888226, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_Name
+      value: Eyeball-Lowpoly
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 9.152881
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.751847
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.090268
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7611495653030737688, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8c7379d42ab0d0c4d8362a66441bd5aa, type: 3}
 --- !u!1001 &6768881838049604830
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3012,3 +3099,4 @@ SceneRoots:
   - {fileID: 703968618}
   - {fileID: 6524348675963575512}
   - {fileID: 80036684}
+  - {fileID: 6647465046330072394}
