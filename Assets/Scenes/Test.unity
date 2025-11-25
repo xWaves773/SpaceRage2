@@ -518,6 +518,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: astronaut
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78da7b61c0f14d448bb9fabee035f0e8, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 3912626196425907143, guid: 78da7b61c0f14d448bb9fabee035f0e8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -1936,7 +1940,8 @@ PrefabInstance:
       value: Fixed-astronaut (1)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: -8700617353114198275, guid: 50c9c9ed39956504099f95edc4682d6a, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 50c9c9ed39956504099f95edc4682d6a, type: 3}
@@ -2300,6 +2305,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 78da7b61c0f14d448bb9fabee035f0e8, type: 3}
       propertyPath: m_Name
       value: astronaut (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 78da7b61c0f14d448bb9fabee035f0e8, type: 3}
+      propertyPath: m_TagString
+      value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 3912626196425907143, guid: 78da7b61c0f14d448bb9fabee035f0e8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
