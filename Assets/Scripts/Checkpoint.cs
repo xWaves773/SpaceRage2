@@ -1,18 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Checkpoint : MonoBehaviour
 {
+    private GameMaster gm;
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.collider.CompareTag("Player"))
-        {
-            var playermg = collision.collider.GetComponent<PlayerManager>();
-            if (playermg != null)
-            {
-                playermg.startpos = transform.position;
-                Debug.Log("Checkpoint");
-            }
-        }
+    private void Start(){
+        gm = GameObject.FindGameObjectWithTag("GM").GetComponent<GameMaster>();
+        
     }
+    private void OnTriggerEnter(Collider other){
+        if (other.CompareTag("Player")){
+            gm.lastCheckPointPos = transform.position;
+        }
+          
+    }
+
 }
