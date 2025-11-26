@@ -12,11 +12,14 @@ public class PlayerPos : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    //void Update(){
-    //    if (){
+
+    //void Update()
+    //{
+    //    if ()
+    //    {
+
     //        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     //    }
-        
+
     //}
 }

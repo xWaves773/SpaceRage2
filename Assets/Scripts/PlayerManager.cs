@@ -4,6 +4,7 @@ public class PlayerManager : MonoBehaviour
 {
     private GameMaster gm;
     public Vector3 startpos;
+   
 
     private void Start()
     {
