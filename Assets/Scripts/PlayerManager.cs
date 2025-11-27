@@ -2,7 +2,6 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
-    private GameMaster gm;
     public Vector3 startpos;
    
 
@@ -20,6 +19,6 @@ public class PlayerManager : MonoBehaviour
 
     public void Die()
     {
-        transform.position = gm.lastCheckPointPos;
+        transform.position = startpos;  
     }
 }
