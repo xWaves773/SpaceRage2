@@ -47,7 +47,7 @@ MonoBehaviour:
   red:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 4
+      <length>k__BackingField: 5
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -57,6 +57,15 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
+          inSlope: 0
+          outSlope: 1
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.08903226
+          value: 0.38620692
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -64,19 +73,19 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.21806452
-          value: 0.31448257
-          inSlope: 1
-          outSlope: 1
+          time: 0.5354839
+          value: 0.35310394
+          inSlope: -0.017434584
+          outSlope: -0.017434584
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.8012904
-          value: 0.67862046
-          inSlope: 0.8381117
-          outSlope: 0.8381117
+          time: 0.7290323
+          value: 0.64551747
+          inSlope: 0.13643679
+          outSlope: 0.13643679
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -85,7 +94,7 @@ MonoBehaviour:
           time: 1
           value: 1
           inSlope: 1
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -96,7 +105,7 @@ MonoBehaviour:
   green:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 4
+      <length>k__BackingField: 2
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -106,25 +115,7 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 1
-          outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.17161289
-          value: 0.3255173
-          inSlope: 1.6157893
-          outSlope: 1.6157893
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.71354836
-          value: 0.65103424
-          inSlope: 1
+          inSlope: 0
           outSlope: 1
           tangentMode: 0
           weightedMode: 0
@@ -134,7 +125,7 @@ MonoBehaviour:
           time: 1
           value: 1
           inSlope: 1
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -145,7 +136,7 @@ MonoBehaviour:
   blue:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 4
+      <length>k__BackingField: 3
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -155,26 +146,17 @@ MonoBehaviour:
         - serializedVersion: 3
           time: 0
           value: 0
-          inSlope: 1
+          inSlope: 0
           outSlope: 1
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.32903227
-          value: 0.35862112
+          time: 0.3264516
+          value: 0.49103498
           inSlope: 1
           outSlope: 1
-          tangentMode: 0
-          weightedMode: 0
-          inWeight: 0
-          outWeight: 0
-        - serializedVersion: 3
-          time: 0.66451615
-          value: 0.7282765
-          inSlope: 0.38460392
-          outSlope: 0.38460392
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -183,7 +165,7 @@ MonoBehaviour:
           time: 1
           value: 1
           inSlope: 1
-          outSlope: 1
+          outSlope: 0
           tangentMode: 0
           weightedMode: 0
           inWeight: 0
@@ -294,13 +276,13 @@ MonoBehaviour:
     m_Value: 1
   scatter:
     m_OverrideState: 1
-    m_Value: 0.698
+    m_Value: 0.461
   clamp:
     m_OverrideState: 1
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.6929354, b: 0, a: 1}
+    m_Value: {r: 0, g: 0.027893782, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 1
     m_Value: 0
@@ -332,10 +314,10 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 0.231
+    m_Value: 0.153
   cropToFit:
     m_OverrideState: 1
-    m_Value: 0.253
+    m_Value: 0.35
 --- !u!114 &-507830894589079193
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -400,13 +382,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.87327975, y: 0.8371881, z: 1, w: 0.35779816}
+    m_Value: {x: 0.50795215, y: 0.8004646, z: 1, w: 0.266055}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.90075696, y: 1, z: 0.9255679, w: -0.045871552}
+    m_Value: {x: 0.9305665, y: 1, z: 0.7559999, w: 0.4311923}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 0.98639274, y: 1, z: 0.73323524, w: 0.73394483}
+    m_Value: {x: 0.9726821, y: 0.5519124, z: 1, w: 1}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0.3
@@ -450,16 +432,16 @@ MonoBehaviour:
   active: 1
   normalBias:
     m_OverrideState: 1
-    m_Value: 0.59
+    m_Value: 1.06
   viewBias:
     m_OverrideState: 1
-    m_Value: 0.89
+    m_Value: 0.64
   scaleBiasWithMinProbeDistance:
     m_OverrideState: 1
     m_Value: 1
   samplingNoise:
     m_OverrideState: 1
-    m_Value: 0.497
+    m_Value: 0.728
   animateSamplingNoise:
     m_OverrideState: 1
     m_Value: 1
@@ -499,13 +481,13 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: -10
+    m_Value: -19
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 1, b: 1, a: 1}
+    m_Value: {r: 0.6089498, g: 0.83396226, b: 0.6223209, a: 1}
   hueShift:
     m_OverrideState: 1
-    m_Value: 2
+    m_Value: -0
   saturation:
     m_OverrideState: 1
-    m_Value: 31
+    m_Value: 35
