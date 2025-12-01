@@ -21,16 +21,16 @@ MonoBehaviour:
     m_Value: 0.9
   intensity:
     m_OverrideState: 1
-    m_Value: 10
+    m_Value: 9
   scatter:
     m_OverrideState: 1
-    m_Value: 0.736
+    m_Value: 0.39
   clamp:
     m_OverrideState: 1
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.25471687, g: 0.30359247, b: 1, a: 1}
+    m_Value: {r: 0.1716981, g: 0.17329553, b: 1, a: 1}
   highQualityFiltering:
     m_OverrideState: 1
     m_Value: 0
@@ -96,7 +96,7 @@ MonoBehaviour:
   active: 1
   distance:
     m_OverrideState: 1
-    m_Value: 0.052
+    m_Value: 0.763
   cropToFit:
     m_OverrideState: 1
     m_Value: 1
@@ -224,7 +224,7 @@ MonoBehaviour:
   red:
     m_OverrideState: 1
     m_Value:
-      <length>k__BackingField: 4
+      <length>k__BackingField: 7
       m_Loop: 0
       m_ZeroValue: 0
       m_Range: 1
@@ -241,8 +241,8 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.3316129
-          value: 0.20137942
+          time: 0.06322581
+          value: 0.18482792
           inSlope: 0.7711376
           outSlope: 0.7711376
           tangentMode: 0
@@ -250,8 +250,35 @@ MonoBehaviour:
           inWeight: 0
           outWeight: 0
         - serializedVersion: 3
-          time: 0.672258
-          value: 0.56551725
+          time: 0.16387095
+          value: 0.39448285
+          inSlope: 0.11610961
+          outSlope: 0.11610961
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.3264516
+          value: 0.18482792
+          inSlope: -0.1650772
+          outSlope: -0.1650772
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.48387095
+          value: 0.42206907
+          inSlope: 1.8429695
+          outSlope: 1.8429695
+          tangentMode: 0
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 0.643871
+          value: 0.86896574
           inSlope: 1
           outSlope: 1
           tangentMode: 0
@@ -457,7 +484,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 81180773991d8724ab7f2d216912b564, type: 3}
   m_Name: ChromaticAberration
   m_EditorClassIdentifier: Unity.RenderPipelines.Universal.Runtime::UnityEngine.Rendering.Universal.ChromaticAberration
-  active: 1
+  active: 0
   intensity:
     m_OverrideState: 1
     m_Value: 0.065
