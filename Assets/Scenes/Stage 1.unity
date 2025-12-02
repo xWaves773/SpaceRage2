@@ -15,7 +15,7 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.041274432, g: 0.04139191, b: 0.04150939, a: 1}
+  m_FogColor: {r: 0.056368813, g: 0.05670452, b: 0.3283019, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.007
   m_LinearFogStart: 0
@@ -747,6 +747,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   startpos: {x: 0, y: 0, z: 0}
+  deathScreen: {fileID: 0}
 --- !u!65 &72514422
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7646,6 +7647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   startpos: {x: 0, y: 0, z: 0}
+  deathScreen: {fileID: 0}
 --- !u!65 &1397710935
 BoxCollider:
   m_ObjectHideFlags: 0
