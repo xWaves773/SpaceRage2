@@ -10,12 +10,7 @@ public class SceneLoader : MonoBehaviour
 
     public void LoadMainScene ()
     {
-        SceneManager.LoadScene("Main");
-    }
-
-    public void LoadEndScene ()
-    {
-        SceneManager.LoadScene("EndScreen");
+        SceneManager.LoadScene("Level1");
     }
 
     public void LoadLevel2 ()

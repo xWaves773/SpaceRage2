@@ -5,6 +5,7 @@ public class PlayerManager : MonoBehaviour
 
     public Vector3 startpos;
     private Rigidbody rb;
+    public GameObject deathScreen;
 
     private void Start()
     {
@@ -21,7 +22,9 @@ public class PlayerManager : MonoBehaviour
 
     public void Die()
 {
-    if (rb != null)
+            deathScreen.SetActive(true);
+
+        if (rb != null)
     {
         rb.linearVelocity = Vector3.zero;
         rb.angularVelocity = Vector3.zero;
@@ -46,4 +49,10 @@ public class PlayerManager : MonoBehaviour
         }
     }
 }
+
+    public void Respawn()
+    {
+        var deathScreen = GameObject.Find("Death-screen");
+            deathScreen.SetActive(false);
+    }
 }
