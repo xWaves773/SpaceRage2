@@ -13,6 +13,13 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody rb;
     private Vector2 moveInput;
     private bool jumpRequested;
+    private Animator animator;
+    private string currentAnimation = "";
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
 
     void Awake()
     {
@@ -31,6 +38,26 @@ public class PlayerMovement : MonoBehaviour
         if (value.Get<float>() > 0.5f)
             jumpRequested = true;
     }
+
+    private void CheckAnimation()
+    {
+        if (moveInput.y == 1 || moveInput.y == -1 || moveInput.x == -1 || moveInput.x == 1)
+            ChangeAnimation("Astronaut|Walk");
+        else if (rb.linearVelocity.y > 0)
+            ChangeAnimation("Astronaut|Jump");
+        else
+            ChangeAnimation("Astronaut|Idle");
+    }
+
+    private void ChangeAnimation(string animation, float crossfade = 0.2f)
+    {
+        if(currentAnimation !=animation)
+        {
+            currentAnimation = animation;
+            animator.CrossFade(animation, crossfade);
+        }
+
+    } 
 
     void FixedUpdate()
     {
@@ -85,5 +112,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         jumpRequested = false;
+
+        CheckAnimation();
     }
 }
