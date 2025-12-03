@@ -6,9 +6,11 @@ using UnityEngine;
 public enum SoundType
 {
     JUMP,
-    LAND,
-    ALIENS,
+    WALK,
     DEATH,
+    PEEPER,
+    SQUIDDLE,
+    SPINO,
     
 
 }
