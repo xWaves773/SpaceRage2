@@ -856,11 +856,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6598405904624369460, guid: 19f67d6af0608754c8ff2d4f24bdf4ce, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 331
+      value: 572
       objectReference: {fileID: 0}
     - target: {fileID: 6598405904624369460, guid: 19f67d6af0608754c8ff2d4f24bdf4ce, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1035.7706
+      value: 1253
       objectReference: {fileID: 0}
     - target: {fileID: 6598405904624369460, guid: 19f67d6af0608754c8ff2d4f24bdf4ce, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3952,12 +3952,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4117839907863189160, guid: 78a57d5d9fd25c24eb171df48aa66d2e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 267085164}
-    - targetCorrespondingSourceObject: {fileID: -6460379112260501209, guid: 78a57d5d9fd25c24eb171df48aa66d2e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 69036126}
-    - targetCorrespondingSourceObject: {fileID: -6460379112260501209, guid: 78a57d5d9fd25c24eb171df48aa66d2e, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 69036127}
     - targetCorrespondingSourceObject: {fileID: -3259796179406731619, guid: 78a57d5d9fd25c24eb171df48aa66d2e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1963890154}
@@ -8769,7 +8763,7 @@ HingeJoint:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963890153}
   serializedVersion: 3
-  m_ConnectedBody: {fileID: 69036126}
+  m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0, z: 0}
   m_Axis: {x: 1, y: 0, z: 0}
@@ -9925,3 +9919,4 @@ SceneRoots:
   - {fileID: 653586380}
   - {fileID: 1112565970}
   - {fileID: 200178897}
+  - {fileID: 81720294}
