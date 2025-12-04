@@ -6,6 +6,7 @@ public class PlayerManager : MonoBehaviour
     public Vector3 startpos;
     private Rigidbody rb;
     public GameObject deathScreen;
+    public GameObject maintheme;
 
     private void Start()
     {
@@ -22,7 +23,9 @@ public class PlayerManager : MonoBehaviour
 
     public void Die()
 {
-            deathScreen.SetActive(true);
+        deathScreen.SetActive(true);
+        maintheme.SetActive(false);
+        
 
         if (rb != null)
     {
@@ -54,5 +57,8 @@ public class PlayerManager : MonoBehaviour
     {
         var deathScreen = GameObject.Find("Death-screen");
             deathScreen.SetActive(false);
+
+        var maintheme = GameObject.Find("Main-Theme");
+            maintheme.SetActive(true); 
     }
 }

@@ -11,6 +11,8 @@ public enum SoundType
     PEEPER,
     SQUIDDLE,
     SPINO,
+    MAIN_THEME,
+    DEATH_THEME,
     
 
 }
