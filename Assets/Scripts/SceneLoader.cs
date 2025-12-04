@@ -5,21 +5,21 @@ public class SceneLoader : MonoBehaviour
 {
     public void LoadStartScene ()
     {
-        SceneManager.LoadScene("StartScreen");
+        SceneManager.LoadScene("Start");
     }
 
-    public void LoadMainScene ()
+    public void LoadStage1 ()
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Stage 1");
     }
 
-    public void LoadLevel2 ()
+    public void LoadStage2 ()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Stage 2");
     }
 
-    public void LoadLevel3()
+    public void LoadStage3()
     {
-        SceneManager.LoadScene("Level3");
+        SceneManager.LoadScene("Stage 3");
     }
 }

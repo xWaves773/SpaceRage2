@@ -7,7 +7,7 @@ public class LoadLevel2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            UnityEngine.SceneManagement.SceneManager.LoadScene("Level2");
+            UnityEngine.SceneManagement.SceneManager.LoadScene("Stage 2");
         }
     }
 
