@@ -3252,7 +3252,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &574831013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6913,35 +6913,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 956.1
+      value: 955.99146
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2814.4
+      value: 2814.4011
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.96504515
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0.2620837
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -30.388
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 280
+      value: 360
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
@@ -6953,7 +6953,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3620852893234782568, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -7082,6 +7082,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   startpos: {x: 0, y: 0, z: 0}
   deathScreen: {fileID: 1370942096}
+  maintheme: {fileID: 0}
 --- !u!114 &1515222772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7201,6 +7202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerManager
   startpos: {x: 0, y: 0, z: 0}
   deathScreen: {fileID: 0}
+  maintheme: {fileID: 0}
 --- !u!114 &1574506191
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8897,39 +8899,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 956
+      value: 956.1085
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 2814.8
+      value: 2814.7988
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99995136
+      value: 0.96314555
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0.0070686545
+      value: -0.26889265
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.0068009803
+      value: 0.006846862
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.0010821292
+      value: -0.0007381215
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: -31.195
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 100.162
+      value: 0.91
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: -0.342
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_Name
@@ -8937,7 +8939,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3620852893234782568, guid: ff16cc762160db64cb036ccf899b020d, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -9089,6 +9091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerHealth
   startpos: {x: 0, y: 0, z: 0}
   deathScreen: {fileID: 1370942096}
+  maintheme: {fileID: 0}
 --- !u!114 &1997795448
 MonoBehaviour:
   m_ObjectHideFlags: 0
